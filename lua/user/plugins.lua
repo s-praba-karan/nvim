@@ -8,7 +8,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
     "clone",
     "--depth",
     "1",
-    "https://github.com/wbthomason/packer.nvim",
+  "https://github.com/wbthomason/packer.nvim",
     install_path,
   }
   print "Installing packer close and reopen Neovim..."
@@ -65,8 +65,9 @@ return packer.startup(function(use)
   use "folke/zen-mode.nvim" 
 
   -- Colorschemes
-  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "kvrohit/substrata.nvim"
+  use "sjl/badwolf" 
+  use "aonemd/kuroi.vim"
+  use "jonathanfilip/vim-lucius"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin

@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
+  badwolf = {
+    loaded = true,
+    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/badwolf",
+    url = "https://github.com/sjl/badwolf"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -143,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
+  ["kuroi.vim"] = {
+    loaded = true,
+    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/kuroi.vim",
+    url = "https://github.com/aonemd/kuroi.vim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -219,11 +229,6 @@ _G.packer_plugins = {
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
   },
-  ["substrata.nvim"] = {
-    loaded = true,
-    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/substrata.nvim",
-    url = "https://github.com/kvrohit/substrata.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -254,6 +259,11 @@ _G.packer_plugins = {
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/vim-livedown",
     url = "https://github.com/shime/vim-livedown"
   },
+  ["vim-lucius"] = {
+    loaded = true,
+    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/vim-lucius",
+    url = "https://github.com/jonathanfilip/vim-lucius"
+  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/which-key.nvim",
@@ -272,5 +282,6 @@ if should_profile then save_profiles() end
 end)
 
 if not no_errors then
+  error_msg = error_msg:gsub('"', '\\"')
   vim.api.nvim_command('echohl ErrorMsg | echom "Error in packer_compiled: '..error_msg..'" | echom "Please check your config for correctness" | echohl None')
 end
