@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["TrueZen.nvim"] = {
-    loaded = true,
-    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/TrueZen.nvim",
-    url = "https://github.com/Pocco81/TrueZen.nvim"
-  },
   ["alpha-nvim"] = {
     loaded = true,
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/alpha-nvim",
@@ -239,25 +234,10 @@ _G.packer_plugins = {
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["twilight.nvim"] = {
-    loaded = true,
-    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/twilight.nvim",
-    url = "https://github.com/folke/twilight.nvim"
-  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
-  },
-  ["vim-css-color"] = {
-    loaded = true,
-    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/vim-css-color",
-    url = "https://github.com/ap/vim-css-color"
-  },
-  ["vim-livedown"] = {
-    loaded = true,
-    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/vim-livedown",
-    url = "https://github.com/shime/vim-livedown"
   },
   ["vim-lucius"] = {
     loaded = true,
@@ -268,11 +248,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/which-key.nvim",
     url = "https://github.com/folke/which-key.nvim"
-  },
-  ["zen-mode.nvim"] = {
-    loaded = true,
-    path = "/home/prabakaran/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
-    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 

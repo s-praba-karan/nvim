@@ -8,7 +8,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
     "clone",
     "--depth",
     "1",
-  "https://github.com/wbthomason/packer.nvim",
+    "https://github.com/wbthomason/packer.nvim",
     install_path,
   }
   print "Installing packer close and reopen Neovim..."
@@ -58,14 +58,10 @@ return packer.startup(function(use)
   use "goolord/alpha-nvim"
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
-  use "ap/vim-css-color"
-  use "shime/vim-livedown"
-  use "Pocco81/TrueZen.nvim"
-  use "folke/twilight.nvim"
-  use "folke/zen-mode.nvim" 
 
   -- Colorschemes
-  use "sjl/badwolf" 
+  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
+  use "sjl/badwolf"
   use "aonemd/kuroi.vim"
   use "jonathanfilip/vim-lucius"
 
